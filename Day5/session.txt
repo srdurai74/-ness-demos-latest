@@ -1,0 +1,14 @@
+Linear Automation Framework
+Modular testing framework
+Data Driven framework
+Keyword driven framework
+Hybrid framework
+
+Project
+  - pageobjects
+  - tests
+  - reports
+  - testdata
+  - utils
+  - config
+

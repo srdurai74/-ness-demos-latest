@@ -1,0 +1,36 @@
+TDD
+  - Test Driven Development
+  - Test First approach
+  - Write test cases first and then write code to pass the test cases
+  - Refactor
+  - Repeat
+
+BDD
+  - Behavior Driven Development
+  - To make Dev, QA, BA to be in sync
+  - BDD Scripts are written in plain English
+  - Gherkin Language
+      - Domain specific language
+      - Given, When, Then, And, But
+  - BDD is a subset of TDD
+  - Tools like Cucumber, Behave, Specflow are used for BDD
+      - Integration with Selenium
+  - features and step definitions
+
+ATDD
+  - Acceptance Test Driven Development
+
+
+Behave
+    - BDD tool for Python
+    - Gherkin Language
+    - Features and Step Definitions
+    - Hooks
+    - Tags
+    - Data Driven testing
+    - Data tables
+    - Integration with Selenium
+    - Reports
+
+    - pip install behave
+
