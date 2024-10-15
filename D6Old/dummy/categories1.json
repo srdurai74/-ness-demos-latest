@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Critical Bugs",
+        "matchedStatuses": ["failed"],
+        "messageRegex": ".*NullPointerException.*"
+    },
+    {
+        "name": "Assertion Errors",
+        "matchedStatuses": ["failed"],
+        "traceRegex": ".*AssertionError.*"
+    },
+    {
+        "name": "Flaky Tests",
+        "matchedStatuses": ["broken"],
+        "messageRegex": ".*Timeout.*"
+    },
+    {
+        "name": "Known Issues",
+        "matchedStatuses": ["failed", "broken"],
+        "description": "These are known issues and are tracked in the bug tracking system."
+    }
+]

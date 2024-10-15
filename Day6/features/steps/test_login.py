@@ -4,6 +4,7 @@ import allure
 from behave import given, when, then
 
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -40,8 +41,8 @@ def step_impl(context):
 def step_impl(context):
     try:
         time.sleep(3)
-        assert "Dashboard" == context.driver.find_element(By.XPATH, "//h6").text
-    except AssertionError as e:
+        assert "Dashboard" == context.driver.find_element(By.XPATH, "//h").text
+    except NoSuchElementException as e:
         allure.attach(context.driver.get_screenshot_as_png(), name='screenshot',
                       attachment_type=allure.attachment_type.PNG)
     time.sleep(3)

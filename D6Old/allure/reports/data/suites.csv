@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 14 00:09:15 IST 2024","Mon Oct 14 00:09:28 IST 2024","12998","","","","","","search for a product in ebay home page -- @1.1 ",""
+"passed","Mon Oct 14 00:08:36 IST 2024","Mon Oct 14 00:08:36 IST 2024","6","","","","","","Register a new user with valid details",""
+"passed","Mon Oct 14 00:08:36 IST 2024","Mon Oct 14 00:08:57 IST 2024","20966","","","","","","User logs in with valid credentials",""
+"passed","Mon Oct 14 00:09:28 IST 2024","Mon Oct 14 00:09:43 IST 2024","14442","","","","","","search for a product in ebay home page -- @1.2 ",""
+"passed","Mon Oct 14 00:08:57 IST 2024","Mon Oct 14 00:09:15 IST 2024","18305","","","","","","search for a product in ebay home page",""
+"passed","Mon Oct 14 00:08:36 IST 2024","Mon Oct 14 00:08:36 IST 2024","5","","","","","","Attempt to register a user with missing details",""

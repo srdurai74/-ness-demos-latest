@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ignored Tests",
+        "matchedStatuses": ["skipped"]
+    },
+    {
+        "name": "Broken Tests",
+        "matchedStatuses": ["failed"],
+        "messageRegex": ".*AttributeError.*|.*TypeError.*"
+    },
+    {
+        "name": "New Failures",
+        "matchedStatuses": ["failed"]
+    },
+    {
+        "name": "Assertion Failures",
+        "matchedStatuses": ["failed"],
+        "messageRegex": ".*AssertionError.*"
+    },
+    {
+        "name": "Out of Scope",
+        "matchedStatuses": ["skipped"],
+        "messageRegex": ".*NotApplicable.*"
+    },
+    {
+        "name": "Environment Issues",
+        "matchedStatuses": ["failed"],
+        "messageRegex": ".*TimeoutException.*|.*ConnectionError.*"
+    }
+]
